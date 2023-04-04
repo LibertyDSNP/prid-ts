@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "noImplicitAny": true,
+    "outDir": "",
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "ESNext",
+    "watch": false,
+    "typeRoots": [
+      "node_modules/@types",
+    ],
+  },
+  "exclude": ["*.test.ts"],
+  "ts-node": {
+    "files": true
+  }
+}
